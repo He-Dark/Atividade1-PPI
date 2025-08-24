@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --font-titulo: "Montserrat", sans-serif;
+  --font-text: "Inter", sans-serif;
+}
+* {
+  font-family: var(--font-text);
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #dedede;
+}
+header {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #dedede;
+}
+
+.principal {
+  width: 100%;
+  height: 75%;
+  background-color: #dedede;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.header__descricao {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__descricao_paragrafo {
+  font-size: 18px;
+}
+
+.imgBanner {
+  width: 50%;
+  margin-left: 50px;
+}
+.nav__links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav__home {
+  text-decoration: none;
+  display: flex;
+  padding-top: 20px;
+  color: #000;
+}
+.nav__login {
+  text-decoration: none;
+  display: flex;
+  padding-top: 20px;
+  color: #000;
+}
+.nav__home:hover {
+  transform: scale(1.1);
+}
+.nav__login:hover {
+  transform: scale(1.1);
+}
+
+.conteudo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 55px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.preco {
+  color: #f97316;
+  font-family: var(--font-text);
+  font-weight: bolder;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.titulo {
+  font-family: var(--font-titulo);
+  font-weight: bold;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #2563eb;
+  color: #fff;
+  font-family: var(--font-text);
+  font-weight: bold;
+  font-size: 13px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px 5px 0px;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+.botao:hover {
+  transform: scale(1.1);
+}
+footer {
+  width: 85%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__titulo {
+  padding-left: 35px;
+}
+.footer__lista {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card:hover {
+  border: 1px solid #f97316;
+  box-shadow: 3px 3px 1px 1px #f97316;
+}

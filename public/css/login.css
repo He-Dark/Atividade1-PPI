@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1470&q=80")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: -1;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+}
+
+.login-card h1 {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.form-control {
+  border-radius: 12px;
+  padding-left: 40px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  border-radius: 12px;
+  height: 48px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+.text-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
